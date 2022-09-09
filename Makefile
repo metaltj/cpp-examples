@@ -18,7 +18,6 @@ build:
 ##########################################
 run: clean build
 	cd ${BUILD_DIR} && ./${BUILD_NAME}
-	./build
 
 ##########################################
 # Clean up outputs of this Makefile
