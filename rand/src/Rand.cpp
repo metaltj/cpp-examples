@@ -32,7 +32,7 @@ uint8_t* Rand::genRand::operator()()
     // Generate next set of random bytes
     for(int i = 0; i < numBytes; i++)
     {
-      buffer[i] = rand() % 255;
+      buffer[i] = rand() % (BYTE_MAX_VAL + 1);
     }
   }
 

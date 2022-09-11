@@ -3,6 +3,9 @@
 // Rand namespace
 namespace Rand
 {
+  // Max value that can be represented by a byte
+  const int BYTE_MAX_VAL = 255;
+
   // Random generation functor
   class genRand
   {  
